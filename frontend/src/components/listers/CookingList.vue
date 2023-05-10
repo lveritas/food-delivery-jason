@@ -22,7 +22,7 @@
                             [ Status :  {{data.status }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ FoodId :  {{data.foodId }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ OrderId :  {{data.orderId }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            [ Options :  {{data.options }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            [ Option :  {{data.option }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ Address :  {{data.address }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </v-list-item-subtitle>
 
@@ -108,7 +108,7 @@
                 'status': '',
                 'foodId': '',
                 'orderId': '',
-                'options': [],
+                'option': '',
                 'address': '',
             }
         },

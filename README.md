@@ -39,7 +39,7 @@ mvn spring-boot:run
 ```
 - store
 ```
- http :8088/cookings id="id" status="status" foodId="foodId" orderId="orderId" options="options" address="address" 
+ http :8088/cookings id="id" status="status" foodId="foodId" orderId="orderId" option="option" address="address" 
 ```
 - rider
 ```

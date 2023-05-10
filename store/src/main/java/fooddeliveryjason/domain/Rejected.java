@@ -13,8 +13,8 @@ public class Rejected extends AbstractEvent {
     private String status;
     private String orderId;
     private String foodId;
-    private List<String> options;
     private String address;
+    private String option;
 
     public Rejected(Cooking aggregate) {
         super(aggregate);

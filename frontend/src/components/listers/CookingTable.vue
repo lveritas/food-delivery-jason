@@ -70,7 +70,7 @@
                     { text: "status", value: "status" },
                     { text: "foodId", value: "foodId" },
                     { text: "orderId", value: "orderId" },
-                    { text: "options", value: "options" },
+                    { text: "option", value: "option" },
                     { text: "address", value: "address" },
                 ],
             cooking : [],
@@ -92,7 +92,7 @@
                 'status': '',
                 'foodId': '',
                 'orderId': '',
-                'options': [],
+                'option': '',
                 'address': '',
             }
         },

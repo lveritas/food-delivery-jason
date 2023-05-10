@@ -24,7 +24,7 @@
                                 OrderId :  {{item.orderId }}
                             </v-list-item-subtitle>
                             <v-list-item-subtitle>
-                                Options :  {{item.options }}
+                                Option :  {{item.option }}
                             </v-list-item-subtitle>
                             <v-list-item-subtitle>
                                 Address :  {{item.address }}

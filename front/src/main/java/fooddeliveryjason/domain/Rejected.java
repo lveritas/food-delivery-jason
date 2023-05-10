@@ -13,6 +13,6 @@ public class Rejected extends AbstractEvent {
     private String status;
     private String orderId;
     private String foodId;
-    private Object options;
     private String address;
+    private String option;
 }

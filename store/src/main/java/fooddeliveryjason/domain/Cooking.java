@@ -21,8 +21,7 @@ public class Cooking {
 
     private String orderId;
 
-    @ElementCollection
-    private List<String> options;
+    private String option;
 
     private String address;
 

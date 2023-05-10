@@ -13,8 +13,8 @@ public class CookStarted extends AbstractEvent {
     private String status;
     private String orderId;
     private String foodId;
-    private List<String> options;
     private String address;
+    private String option;
 
     public CookStarted(Cooking aggregate) {
         super(aggregate);
