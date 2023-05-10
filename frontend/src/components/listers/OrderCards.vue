@@ -69,7 +69,7 @@
             
             me.newValue = {
                 'foodId': '',
-                'options': [],
+                'option': '',
                 'address': '',
                 'customerId': '',
                 'storeId': '',

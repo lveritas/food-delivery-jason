@@ -18,8 +18,7 @@ public class Order {
 
     private String foodId;
 
-    @ElementCollection
-    private List<String> options;
+    private Options option;
 
     private String address;
 

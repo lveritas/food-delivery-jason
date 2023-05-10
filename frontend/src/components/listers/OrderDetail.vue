@@ -8,7 +8,7 @@
             <div>
                 <String label="FoodId" v-model="item.foodId" :editMode="editMode" @change="change" />
             </div>
-            <StringManager offline label="Options" v-model="item.options" :editMode="false" @change="change" />
+            <Options offline label="Option" v-model="item.option" :editMode="false" :key="false" @change="change" />
             <div>
                 <String label="Address" v-model="item.address" :editMode="editMode" @change="change" />
             </div>

@@ -68,7 +68,7 @@
                 [
                     { text: "id", value: "id" },
                     { text: "foodId", value: "foodId" },
-                    { text: "options", value: "options" },
+                    { text: "option", value: "option" },
                     { text: "address", value: "address" },
                     { text: "customerId", value: "customerId" },
                     { text: "storeId", value: "storeId" },
@@ -91,7 +91,7 @@
 
             this.newValue = {
                 'foodId': '',
-                'options': [],
+                'option': '',
                 'address': '',
                 'customerId': '',
                 'storeId': '',

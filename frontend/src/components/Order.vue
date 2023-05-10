@@ -18,7 +18,7 @@
 
         <v-card-text>
             <String label="FoodId" v-model="value.foodId" :editMode="editMode"/>
-            <String label="Options" v-model="value.options" :editMode="editMode"/>
+            <Options offline label="Option" v-model="value.option" :editMode="editMode" @change="change"/>
             <String label="Address" v-model="value.address" :editMode="editMode"/>
             <String label="CustomerId" v-model="value.customerId" :editMode="editMode"/>
             <String label="StoreId" v-model="value.storeId" :editMode="editMode"/>
