@@ -18,7 +18,7 @@ public class Order {
 
     private String foodId;
 
-    private Options option;
+    private String option;
 
     private String address;
 
