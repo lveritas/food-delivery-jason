@@ -17,6 +17,7 @@ import DeliveryManager from "./components/listers/DeliveryCards"
 import DeliveryDetail from "./components/listers/DeliveryDetail"
 
 
+
 export default new Router({
     // mode: 'history',
     base: process.env.BASE_URL,
@@ -63,6 +64,7 @@ export default new Router({
                 name: 'DeliveryDetail',
                 component: DeliveryDetail
             },
+
 
 
 
